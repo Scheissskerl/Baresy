@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/media.css">
+  <title>Baresy</title>
+</head>
+
+<body>
+
+  <header class="header">
+
+    <div class="header__wrap container">
+      <a class="header__logo" href="#">
+        <img src="img/01-Logo.svg" alt="Логотип">
+      </a>
+      <nav class="header__nav">
+        <ul class="header__nav-menu">
+          <li>
+            <a class="header__nav-link" target="_blank" href="#about-us">About us</a>
+          </li>
+          <li>
+            <a class="header__nav-link" target="_blank" href="#">News</a>
+          </li>
+          <li>
+            <a class="header__nav-link" target="_blank" href="#">Menu</a>
+          </li>
+          <li>
+            <a class="header__nav-link" target="_blank" href="#">Contacts</a>
+          </li>
+        </ul>
+        <!-- burger -->
+        <div class="header__burger">
+          <span class="header__burger-line"></span>
+        </div>
+        <!-- burger-menu -->
+        <ul class="header__burger-menu">
+          <li>
+            <a class="header__nav-link" href="#about-us">About us</a>
+          </li>
+          <li>
+            <a class="header__nav-link" target="_blank" href="#">News</a>
+          </li>
+          <li>
+            <a class="header__nav-link" target="_blank" href="#">Menu</a>
+          </li>
+          <li>
+            <a class="header__nav-link" href="#contacts">Contacts</a>
+          </li>
+          <li>
+            <a class="header__nav-link" target="_blank" href="#">Special offer</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+  </header>
+
+  <main>
+
+    <section class="hero">
+
+      <div class="hero-container container">
+        <div class="hero__specialOffer">
+          <div class="hero__specialOffer-border">
+            <div class="hero__specialOffer-content">
+              <h2 class="hero__specialOffer-title">Special offer</h2>
+              <p class="hero__specialOffer-description">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque,
+                culpa? Repellendus quia, ratione omnis est hic illo nostrum non tenetur similique, nobis eius
+                eaque necessitatibus minus quisquam. Maiores, architecto illo repellat quidem corporis saepe
+                deleniti in molestias ut cupiditate nihil, earum illum fugit culpa ex sapiente aliquid soluta
+                neque. nsectetur adipisicing elit. Odio debitis
+                ducimus sunt quas.
+              </p>
+            </div>
+            <button class="hero__specialOffer-btn">Know more</button>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <section class="about-us" id="about-us">
+
+      <div class="about-us-container container">
+        <div class="about-us__content">
+          <h1 class="about-us__title">Baking <span class="about-us__title-red">is</span> delicious</h1>
+          <p class="about-us__description">
+            quidem error eligendi? Atque, nemo
+            possimus ullam adipisci iste totam maxime fugiat alias distinctio optio doloribus porro aliquid,
+            enim minima nobis. Voluptate molestiae asperiores fugiat consequuntur maxime vel magnam hic, dolor
+            voluptatem, autem rem dolore doloribus nulla nesciunt molestias labore enim., ipsum dolor sit amet
+            consectetur adipisicing elit. Cumque iste perferendis natus possimus velit molestias
+            similique.
+            Facere saepe expedita, mollitia, ab, hic maiores commodi unde obcaecati totam fugiat enim sapiente.
+          </p>
+        </div>
+        <div class="about-us__awards">
+          <picture class="catalog__painter-img">
+            <source srcset="img/01-Иконка-882.svg" media="(width < 882px)">
+            <source srcset="img/01-Иконка-1280.svg" media="(width < 1280px)">
+            <img src="img/01-Иконка.svg" alt="Картинка">
+          </picture>
+          <picture class="catalog__painter-img">
+            <source srcset="img/03-Иконка-882.svg" media="(width < 882px)">
+            <source srcset="img/03-Иконка-1280.svg" media="(width < 1280px)">
+            <img src="img/03-Иконка.svg" alt="Картинка">
+          </picture>
+          <picture class="catalog__painter-img">
+            <source srcset="img/02-Иконка-882.svg" media="(width < 882px)">
+            <source srcset="img/02-Иконка-1280.svg" media="(width < 1280px)">
+            <img src="img/02-Иконка.svg" alt="Картинка">
+          </picture>
+        </div>
+      </div>
+
+    </section>
+
+    <section class="contacts" id="contacts">
+
+      <div class="contacts-container container">
+        <div class="contacts__content">
+          <h2 class="contacts__title">We are here</h2>
+          <ul class="contacts__address-list">
+            <li class="contacts__address-item">
+              <h3 class="contacts__address-title">Address:</h3>
+              <p class="contacts__address-information">Strossmayerovo náměstí 966/11</p>
+            </li>
+            <li class="contacts__address-item">
+              <h3 class="contacts__address-title">Worcing hours:</h3>
+              <p class="contacts__address-information">7:30 - 19:30</p>
+            </li>
+            <li class="contacts__address-item">
+              <h3 class="contacts__address-title">Telephone:</h3>
+              <p class="contacts__address-information"> +420605977291</p>
+            </li>
+          </ul>
+          <iframe class="contacts__map"
+            src="https://yandex.ru/map-widget/v1/?um=constructor%3Ae4ab212f8f3d62af3a6f1648031c0884ab846969a294b162127403aa3af7ed8c&amp;source=constructor"
+            width="100%" height="450" frameborder="0">
+          </iframe>
+        </div>
+        <div class="contacts__border-bottom"></div>
+      </div>
+
+    </section>
+
+  </main>
+
+  <footer class="footer">
+
+    <div class="footer-container container">
+      <ul class="footer__menu">
+        <li>
+          <a class="footer__menu-link" target="_blank" href="#">About us</a>
+        </li>
+        <li>
+          <a class="footer__menu-link" target="_blank" href="#">News</a>
+        </li>
+        <li>
+          <a class="footer__menu-link" target="_blank" href="#">Menu</a>
+        </li>
+        <li>
+          <a class="footer__menu-link" target="_blank" href="#">Contacts</a>
+        </li>
+      </ul>
+    </div>
+
+  </footer>
+
+  <script src="js/burger.js"></script>
+  <script src="js/knowMore.js"></script>
+</body>
+
+</html>
